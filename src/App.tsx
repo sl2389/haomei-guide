@@ -114,7 +114,7 @@ const plantResults = [
   },
 ];
 
-function distanceMeters(a, b) {
+function distanceMeters(a: any, b: any) {
   const R = 6371000;
   const dLat = ((b.lat - a.lat) * Math.PI) / 180;
   const dLng = ((b.lng - a.lng) * Math.PI) / 180;

@@ -126,7 +126,7 @@ function distanceMeters(a: any, b: any) {
   return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x));
 }
 
-function BigButton({ children, onClick, icon: Icon, secondary = false }) {
+function BigButton({ children, onClick, icon: Icon, secondary = false }: any) {
   return (
     <button
       onClick={onClick}
